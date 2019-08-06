@@ -24,4 +24,6 @@ NOTE: Put images in "themes/clean/source/img/sample.jpg", and use them as "/img/
 	- jQuery
 	- 表格
 	- 表单验证
+	subtitle: Standard Excerpts are not supported in Clean Blog but you can use subtitles in the front matter to display text in the index.
+
 
