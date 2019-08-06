@@ -7,7 +7,8 @@ It's OK to love China！
 
 	$ hexo new post "ok to love china"
 	$ hexo g
-	$ git commit -a -m "add new post"
+	$ git add .
+	$ git commit -m "add new post"
 	$ git push
 
 NOTE: Put images in "themes/clean/source/img/sample.jpg", and use them as "/img/sample.jpg"
