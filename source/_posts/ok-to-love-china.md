@@ -1,8 +1,6 @@
 ---
 title: It's OK to love China!
 date: 2019-08-06 17:32:13
-categories:
-- OKTLC
 tags:
 - OKTLC
 - China
