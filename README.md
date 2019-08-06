@@ -1,7 +1,12 @@
-# ok-to-love-china
+# OKTLC
 
-It's OK to love China！
-我自豪我爱中国！
+It's OK To Love China！
+
+爱中国！
+
+# Hexo Based Blog
+
+Theme: https://github.com/klugjo/hexo-theme-clean-blog
 
 # How to add new post
 
@@ -13,6 +18,12 @@ It's OK to love China！
 
 NOTE: Put images in "themes/clean/source/img/sample.jpg", and use them as "/img/sample.jpg"
 
-# Hexo Theme
+	title: jQuery对表单的操作及更多应用
+	date: 2017-05-26 12:12:57
+	categories: 
+	- web前端
+	tags:
+	- jQuery
+	- 表格
+	- 表单验证
 
-	https://github.com/klugjo/hexo-theme-clean-blog
