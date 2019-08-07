@@ -4,6 +4,9 @@ date: 2019-08-01 08:00:00
 tags:
 subtitle: 这个网站想告诉大家，”爱中国“，不仅可以，不仅不丢人，而且是光荣的事儿！
 ---
+
+**OKTLC = OK To Love China**
+
 一天在Youtube上闲逛，看到了这位“火锅大王”的视频：
 
 [![火锅大王-热点评论](/images/hotpot.jpg)](https://www.youtube.com/watch?v=DQ6qfkB_2wY&t=2s)
