@@ -16,7 +16,7 @@ Theme: https://github.com/klugjo/hexo-theme-clean-blog
 	$ git commit -m "add new post"
 	$ git push
 
-NOTE: Put images in "themes/clean/source/img/sample.jpg", and use them as "/img/sample.jpg"
+NOTE: Put images in "source/images/sample.jpg", and use them as "/images/sample.jpg"
 
 	title: jQuery对表单的操作及更多应用
 	date: 2017-05-26 12:12:57
