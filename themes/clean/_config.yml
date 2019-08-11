@@ -3,9 +3,9 @@ menu:
   Home: /
   Archives: /archives
   Tags: /tags
-  Github:
-    url: https://github.com/zfdang/ok-to-love-china
-    icon: github
+  # Github:
+  #   url: https://github.com/zfdang/ok-to-love-china
+  #   icon: github
 
 # Title on top left of menu. Leave empty to use main blog title
 menu_title: OKTLC = OK To Love China
@@ -38,8 +38,8 @@ favicon:
 # Social Accounts
 twitter_url:
 twitter_handle:
-facebook_url: 
-github_url: 
+facebook_url: https://fb.me/oktlc.org
+github_url: https://github.com/zfdang/ok-to-love-china
 gitlab_url:
 linkedin_url:
-mailto: 
+mailto: admin@oktlc.org
