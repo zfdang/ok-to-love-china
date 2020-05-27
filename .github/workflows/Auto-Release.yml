@@ -1,7 +1,7 @@
 name: Create Release
 
 env:
-  BUILD_DATE: $(date)
+  build_date: $(date)
 
 on:
   push:
@@ -19,8 +19,7 @@ jobs:
 
       - name: Build firmware
         run: |
-          echo $BUILD_DATE
-          echo ${{ BUILD_DATE }}
+          echo ${{ env.build_date }}
         
       - name: Create Release
         id: create_release
