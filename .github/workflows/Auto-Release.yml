@@ -1,0 +1,36 @@
+on:
+  push:
+    branches: 
+      - master
+
+name: Create Release
+
+jobs:
+  build:
+    name: Create Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build firmware
+        env:
+          BUILD_DATE: "$(date)"
+        run: |
+          echo $BUILD_DATE
+          echo ${{ BUILD_DATE }}
+        
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+        with:
+          tag_name: ${{ BUILD_DATE }}
+          release_name: Release ${{ BUILD_DATE }}
+          body: |
+            Changes in this Release
+            - First Change
+            - Second Change
+          draft: false
+          prerelease: false
